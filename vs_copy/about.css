@@ -19,6 +19,12 @@ footer{
     padding-bottom: 30px; 
 }
 
+.active {
+    color:#F27E88;  /* Change color when active */
+    font-weight: bold;
+    background-color: transparent;
+}
+
 /* //////////////////////////////////////// nav settings //////*/
 ul{
     list-style-type: none;
@@ -49,9 +55,7 @@ ul{
     display: block;
     color: #060440;
     text-align: center;
-    /* padding: 14px 16px; */
-    /* padding: 40px; */
-    /* text-decoration: none; */
+
 }
 a{
     text-decoration: none;
@@ -60,9 +64,7 @@ a{
 a:hover {
     color: #F27E88;
 }
-.active {
-    background-color: #04AA6D;
-}
+
 #logo{
     float: left;
 }

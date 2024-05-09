@@ -4,6 +4,12 @@
     opacity: 1; */
 }
 
+.active {
+    color:#F27E88;  /* Change color when active */
+    font-weight: bold;
+    background-color: transparent;
+}
+
 /* General */
 body{
     height: 100%;
@@ -14,7 +20,6 @@ body{
 nav{
     display:inline;
     text-align: center;
-    /* background-color: aquamarine;  */
     position: fixed;
     width: 100%;
 }
@@ -59,29 +64,26 @@ ul{
 .nav-link {
     float: right;
     padding-right: 150px;
+    background-color: transparent;
     
 }
 .nav-link a {
     display: block;
     color: #060440;
     text-align: center;
-    /* padding: 14px 16px; */
-    /* padding: 40px; */
-    /* text-decoration: none; */
+    /* background-color: transparent; */
 }
 a{
     text-decoration: none;
     padding-top: 3px;
+    /* background-color: transparent; */
   
 }
     /* Change the link color to #111 (black) on hover */
 a:hover {
-/* background-color: #111; */
 color: #F27E88;
 }
-.active {
-    background-color: #04AA6D;
-}
+
 #logo{
     float: left;
 }
@@ -260,3 +262,6 @@ button:hover{
     border: 2px solid #7E8FF2;
     
 }
+
+
+
