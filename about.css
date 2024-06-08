@@ -1,3 +1,10 @@
+
+.active {
+    color:#F27E88;  /* Change color when active */
+    font-weight: bold;
+    background-color: transparent;
+}
+
 /* ////////////////////////////////////////  General ////////*/
 body{
     height: 100%;
@@ -19,13 +26,8 @@ footer{
     padding-bottom: 30px; 
 }
 
-.active {
-    color:#F27E88;  /* Change color when active */
-    font-weight: bold;
-    background-color: transparent;
-}
-
 /* //////////////////////////////////////// nav settings //////*/
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -34,7 +36,7 @@ ul{
     padding-left: 80px;
     overflow: hidden;
     background-color:#F2F2F2;
-    /* font */
+
     font-family: "Hind", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -65,7 +67,9 @@ a:hover {
     color: #F27E88;
 }
 
-#logo{
+#logo a {
+    font-weight: 500;
+    font-family: "Hind", sans-serif;
     float: left;
 }
 
@@ -289,3 +293,54 @@ img{
     height: 400px;
 }
 
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    header {
+        padding: 80px 20px;
+    }
+    header h1 {
+        font-size: 2.5em;
+    }
+    header h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        padding: 0 10px;
+    }
+    nav a {
+        font-size: 0.9em;
+        padding: 8px 10px;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+    header h2 {
+        font-size: 1em;
+    }
+    .group {
+        display: block;
+        padding-top: 20px;
+    }
+    .group h2 {
+        padding-bottom: 25px;
+        padding-left: 20px;
+        font-size: 1.8em;
+    }
+    article {
+        flex: 1 1 100%;
+        margin: 10px 0;
+        padding: 0 20px;
+    }
+    article img {
+        width: 100%;
+        height: auto;
+    }
+}

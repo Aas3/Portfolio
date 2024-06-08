@@ -1,6 +1,36 @@
 (function () {
     'use strict';
 
+    // ON CLICK NAV
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    // Add a click event listener to each link
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            // Remove the 'active' class from all links
+            navLinks.forEach(l => l.classList.remove('active'));
+
+            // Add the 'active' class to the clicked link
+            this.classList.add('active');
+        });
+    });
+
+
+    const navLinks2 = document.querySelectorAll('.nav-link2');
+
+    // Add a click event listener to each link
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            // Remove the 'active' class from all links
+            navLinks.forEach(l => l.classList.remove('active'));
+
+            // Add the 'active' class to the clicked link
+            this.classList.add('active');
+        });
+    });
+})();
+
+
 ///////////////////////////////////////////////////////  PASSWORD ///
 
     // var greeting = function(){
@@ -28,21 +58,3 @@
     //     greeting();
 
     
-
-///////////////////////////////////////////////////////  ON CLICK NAV ///
-    const navLinks = document.querySelectorAll('.nav-link');
-
-    // Add a click event listener to each link
-    navLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            // Remove the 'active' class from all links
-            navLinks.forEach(l => l.classList.remove('active'));
-
-            // Add the 'active' class to the clicked link
-            this.classList.add('active');
-        });
-    });
-
-
-
-})();

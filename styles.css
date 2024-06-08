@@ -18,9 +18,64 @@ body {
     background: #F2F2F2;
     margin: auto;
     font-family: "Hind", sans-serif;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-x: hidden; 
 }
-nav {
+
+nav{
+    display:inline;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    overflow: hidden;
+    background-color:#F2F2F2;
+
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+#logo{
+    padding-left: 80px;
+    font-family: "Hind", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.nav-link {
+    float: right;
+    padding-right: 150px;
+    
+}
+.nav-link a {
+    display: block;
+    color: #060440;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    padding-top: 3px;
+}
+a:hover {
+    color: #F27E88;
+}
+
+#logo a {
+    font-weight: 500;
+    font-family: "Hind", sans-serif;
+    float: left;
+}
+
+
+/* nav {
     display:inline;
    text-align: center;
    position: fixed;
@@ -34,10 +89,7 @@ nav ul {
    padding-left: 80px;
    overflow: hidden;
    background-color:#F2F2F2;
-   /* background-image: url("images/paper3.jpg"); */
 
-
-   /* font */
    font-family: "Hind", sans-serif;
    font-weight: 300;
    font-style: normal;
@@ -55,8 +107,10 @@ nav a:hover, .nav-link.active {
     font-weight: 500;
     font-family: "Hind", sans-serif;
     float: left;
-}
-#resume {
+} */
+
+/* //////////////////////////////////////////////// */
+/* #resume {
     float: right;
     background-color: beige;
     color: #00281B;
@@ -67,7 +121,9 @@ nav a:hover, .nav-link.active {
     font-size: 15px;
     border-radius: 4px;
     border: none;
-}
+} */
+
+
 header {
     width: 100%;
     background-image: url("images/paper3.jpg");
@@ -91,20 +147,27 @@ header {
 
 }
 header h1 {
-    font-size: 3em;
-    color: #F27E88;
     line-height: 1.5;
+   font-size: 60px;
+   color: #F27E88;
 }
 header h2 {
-    font-size: 1.5em;
-    font-weight: 300;
+    line-height: 2;
+   color: #060440;
+   font-family: "Hind", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+
 }
 header #gif img {
-    padding-left: 150px;
-    width: 100%;
-    /* max-width: 400px; */
-    height: auto;
-    object-fit: cover;
+    width: 30%;  /* Smaller portion for the image */
+    text-align: right;  /* Right-align the image section */
+    padding-top: 50px;
+    padding-left: 230px;
+
+    width: 100%;  /* Image fills the width of its container */
+   height: auto;  /* Maintain aspect ratio */
+   object-fit: cover;  
 }
 section {
     padding: 40px 20px;
