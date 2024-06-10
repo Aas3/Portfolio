@@ -131,7 +131,7 @@ header {
     background-repeat: no-repeat;
     /* padding: 100px 20px; */
     padding-top: 200px;
-    padding-bottom: 160px;
+    padding-bottom: 90px;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -150,6 +150,7 @@ header h1 {
     line-height: 1.5;
    font-size: 60px;
    color: #F27E88;
+   padding-top: 30px;
 }
 header h2 {
     line-height: 2;
@@ -162,8 +163,8 @@ header h2 {
 header #gif img {
     width: 30%;  /* Smaller portion for the image */
     text-align: right;  /* Right-align the image section */
-    padding-top: 50px;
-    padding-left: 230px;
+    padding-top: 30px;
+    padding-left: 200px;
 
     width: 100%;  /* Image fills the width of its container */
    height: auto;  /* Maintain aspect ratio */
@@ -231,7 +232,7 @@ button {
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 button:hover {
-    background-color: #EFEEED;
+    background-color: #DBDCF2;
     color: #050340;
     border: 2px solid #050340;
 }
@@ -242,7 +243,7 @@ button:hover {
 }
 .buttonPurp:hover {
     background-color: #050340;
-    color: #EFEEED;
+    color: #DBDCF2;
     border: 2px solid #7E8FF2;
 }
 footer {
