@@ -1,5 +1,7 @@
+
+
 .active {
-    color:#F27E88;  /* Change color when active */
+    color: #F27E88;  /* Change color when active */
     font-weight: bold;
     background-color: transparent;
 }
@@ -25,13 +27,6 @@
     }
 }
 
-footer {
-    height: 80px;
-    background-color: #050340;
-    /* color: #7E8FF2;
-    font-family: "Space Grotesk", sans-serif; */
-}
-
 /* General */
 body {
     height: 100%;
@@ -40,6 +35,12 @@ body {
     margin: auto;
     font-family: "Hind", sans-serif;
     overflow-x: hidden; 
+}
+footer {
+    height: 80px;
+    background-color: #050340;
+    /* color: #7E8FF2;
+    font-family: "Space Grotesk", sans-serif; */
 }
 /* Reset some styles to ensure consistency */
 * {
@@ -55,16 +56,17 @@ nav {
     justify-content: space-between; /* Distribute space evenly */
     position: fixed;
     background-color: #F2F2F2;
-    padding: 25px;
+    padding: 20px;
     font-family: "Hind", sans-serif;
     font-weight: 300;
     font-style: normal;
+    font-size: 16px;
     z-index: 100; /* Ensure nav stays above other content */
 }
 
 #name {
-    padding-top: 5px;
-    padding-left: 50px; /* Reduced padding for better spacing */
+    /* padding-top: 5px; */
+    padding-left: 75px; /* Reduced padding for better spacing */
     color: #F27E88;
     font-family: "Hind", sans-serif;
     font-weight: 500;
@@ -73,6 +75,7 @@ nav {
 }
 
 ul.links {
+    /* padding-top: 10px; */
     list-style-type: none;
     display: flex;
     text-align: center; /* Centered for better alignment */
@@ -81,8 +84,9 @@ ul.links {
 }
 
 .nav-link {
+    
     text-decoration: none;
-    padding: 0 55px; /* Added padding for spacing */
+    padding: 0 75px; /* Added padding for spacing */
     color: #060440; /* Ensured text color */
     text-align: center; /* Centered for better alignment */
     transition: color 0.3s ease; /* Smooth color change on hover */
@@ -297,7 +301,7 @@ h2{
     /* background-color: ; */
     color: #7E8FF2;
 }
-li{
+#skills li{
     line-height: 2;
     color: #7E8FF2;
     list-style:none;
