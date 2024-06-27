@@ -1,29 +1,110 @@
 
+.links .nav-link {
+    text-decoration: none;
+    color: #050340;
+}
 
-.active {
+.links .nav-link.active {
     color: #F27E88;  /* Change color when active */
     font-weight: bold;
     background-color: transparent;
 }
 
+/* qfnciuefqbfiubeni */
+
+
+
+
+
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
     nav {
         flex-direction: column; /* Stack links vertically on small screens */
+        max-width: 400px;
+        justify-content: center;
     }
 
-    #name {
+    p #name {
         order: 1; /* Move name to the top on small screens */
-        padding-right: 0; /* Adjust padding for vertical stacking */
+        
+        padding-left: 120px; 
+        text-align: right;
+       
+        width: 400px;
     }
 
     ul.links {
+        order: 2;
         flex-direction: column; /* Stack links vertically */
         width: 100%; /* Take full width */
+        
     }
 
    .nav-link {
-        padding: 10px 0; /* Adjust padding for vertical stacking */
+        padding: 0; /* Adjust padding for vertical stacking */
+        text-align: right;
+        width: 400px;
+    }
+    header h1, h2{ 
+        width: 375px;
+        /* display: grid;
+        flex-wrap: wrap; */
+
+        /* display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; */
+    }
+    .container{
+        margin: auto; 
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #gif img {
+        /* opacity: 0%; */
+    }
+
+    article{
+        padding-bottom: 75px;
+    }
+    #blue h2 {
+        color: #BDD959;
+        padding: 0;
+        text-align: center;
+    }
+    #purp h2{
+        color: #050340;
+        padding: 0;
+        text-align: center;
+    }
+   
+    /* ABOUT ////////////////// */
+    #about{
+        padding-top: 100px;
+    }
+    .container3{
+       padding: 0;
+       
+    }
+    #skills{
+        color: #060440;
+    }
+    #skills li{
+        padding: 0;
+        width: 200px;
+        margin: 0;
+        color: #060440;
+        
+    }
+    aside {
+        margin: 0;
+        color: #060440;
+        background-color: #191C59;
+        /* opacity: 15%; */
+        
     }
 }
 
@@ -67,11 +148,12 @@ nav {
 #name {
     /* padding-top: 5px; */
     padding-left: 75px; /* Reduced padding for better spacing */
-    color: #F27E88;
+    color: #050340;
     font-family: "Hind", sans-serif;
     font-weight: 500;
     font-style: normal;
     text-decoration: none;
+    font-weight: bold;
 }
 
 ul.links {
